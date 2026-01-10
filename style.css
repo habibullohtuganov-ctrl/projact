@@ -634,6 +634,13 @@ border: 1px solid rgba(204, 199, 199, 0.563);
 .yll3 p{
     line-height: 24px;
 }
+.xll{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
 @media(max-width:600px) {
     .all {
         background: linear-gradient(rgba(0, 0, 0, 0.703)), url("./uae-4-2048x1367\ 2.png");
