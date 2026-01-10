@@ -376,10 +376,10 @@
 
 }
 .jll h1{
-    text-align: center;
     margin-top: 70px;
     color: #016ca8;
     font-size: 44px;
+    margin-left: 50px;
 }
 .jll2{
     padding: 30px 40px;
@@ -493,7 +493,6 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     gap: 30px;
 }
 .rii h1{
-    text-align: center;
     color: #016ca8;
 }
 .rii1{
@@ -530,7 +529,6 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     gap: 40px;
 }
 .wll h1{
-    text-align: center;
     color: #016ca8;
     font-size: 44px;
 }
@@ -538,11 +536,10 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
-    margin-left: 10%;
+    gap: 30px;
 }
 .wll2{
-    width: 400px;
+    width: 380px;
     height: 850px;
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgba(202, 201, 201, 0.267);
@@ -589,20 +586,53 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     display: flex;
     flex-direction: column;
     gap: 30px;
-    align-items: center;
     margin-top: 100px;
 }
+.mll1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mll2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
 .mll h1{
-    text-align: center;
     color: #016ca8;
     font-size: 44px;
 }
 .mll p{
-    width: 74%;
-    text-align: center;
+    width: 70%;
+    text-align: start;
     line-height: 27px;
     color: gray;
     font-size: 19px;
+}
+.yll{
+    width: 100%;
+    margin-top: 50px;
+}
+.yll1{
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+.yll2{
+    display: flex;
+    gap: 260px;
+    width: 100%;
+    align-items: center;
+}
+.yll3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.yll3 p{
+    line-height: 24px;
 }
 @media(max-width:600px) {
     .all {
@@ -840,5 +870,34 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     }
     .wll1{
             width: 80%;
+        }
+        .mll1{
+            display: flex;
+            flex-direction: column;
+        }
+        .wll2{
+            margin-left: 80px;
+            height: auto;
+        }
+        .mll2 p{
+            width: 100%;
+            text-align: center;
+        }
+        .yll2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .yll3 p{
+            width: 90%;
+            text-align: start;
+            margin-left: 10%;
+        }
+        .yll3 h3{
+            width: 90%;
+            height: auto;
+            text-align: end;
+        }
+        .yll{
+            height: auto;
         }
 }
