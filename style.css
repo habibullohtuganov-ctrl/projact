@@ -105,8 +105,21 @@
 .sll1{
     width: 270px;
     height: 200px;
-    box-shadow: 0px 0px 10px;
     margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border: 1px solid rgba(230, 230, 230, 0.806);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(214, 214, 214);
+}
+.img2{
+    padding-top: 10px;
+}
+.zll8{
+    display: none;
 }
 @media(max-width:600px)
 {
@@ -148,5 +161,36 @@
           width: 300px;
           display: flex;
           margin: auto;
+    }
+    .hrt{
+        margin: auto;
+        text-align: center;
+    }
+    .zll{
+        display: flex;
+        flex-direction: column;
+    }
+    .zll1{
+        width: 350px;
+        text-align: center;
+        line-height: 60px;
+    }
+    .zll1 button{
+        margin: auto;
+    }
+    .zll8{
+        display: block;
+        margin: auto;
+    }
+    .xll{
+        display: none;
+    }
+    .zll1 img{
+         width: 350px;
+    }
+    .sll{
+        display: flex;
+        flex-direction: column;
+        
     }
 }
