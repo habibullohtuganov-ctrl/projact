@@ -583,6 +583,27 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     color: white;
     background: linear-gradient(rgba(1, 108, 168, 1),rgba(97, 181, 228, 1));
 }
+.mll{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-top: 100px;
+}
+.mll h1{
+    text-align: center;
+    color: #016ca8;
+    font-size: 44px;
+}
+.mll p{
+    width: 74%;
+    text-align: center;
+    line-height: 27px;
+    color: gray;
+    font-size: 19px;
+}
 @media(max-width:600px) {
     .all {
         background: linear-gradient(rgba(0, 0, 0, 0.703)), url("./uae-4-2048x1367\ 2.png");
