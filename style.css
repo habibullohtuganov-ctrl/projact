@@ -776,6 +776,67 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     display: flex;
     gap: 20px;
 }
+.ill{
+    margin-top: 50px;
+    width: 100%;
+    height: 320px;
+    background: linear-gradient(rgba(1, 108, 168, 1),rgba(97, 181, 228, 1));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+.ill1{
+    max-width: 1200px;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ill3{
+    width: 350px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+.ill4{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.ill4 p{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.ill4 img{
+    width: 60px;
+    height: 60px;
+}
+.ill2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+.plk{
+    margin-top: 30px;
+    color: white;
+}
+.ill5{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+}
+.plll{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
 @media(max-width:600px) {
     .all {
         background: linear-gradient(rgba(0, 0, 0, 0.703)), url("./uae-4-2048x1367\ 2.png");
@@ -1077,8 +1138,8 @@ border: 1px solid rgba(204, 199, 199, 0.563);
             flex-wrap: wrap;
         }
         .nll2{
-            width: 170px;
-            margin-left: 40px;
+            width: 140px;
+            margin-left: 30px;
         }
         .nll2 img{
             width: 100px;
@@ -1103,5 +1164,22 @@ border: 1px solid rgba(204, 199, 199, 0.563);
         .kll2{
             display: flex;
             height: auto;
+            width: 90%;
+        }
+        .ill1{
+            display: flex;
+            flex-direction: column;
+        }
+        .ill{
+            width: 100%;
+            height: 300px;
+            background: linear-gradient(rgba(1, 108, 168, 1), rgba(97, 181, 228, 1));
+            text-align: center;
+        }
+        .ill3{
+            width: 80%;
+        }
+        .ill4{
+            margin: auto;
         }
 }
