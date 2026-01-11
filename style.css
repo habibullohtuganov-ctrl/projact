@@ -641,6 +641,74 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     gap: 10px;
     margin-top: 50px;
 }
+.ull{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ull1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ull4{
+    width: 240px;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.ull3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.img6{
+    width: 55px;
+    height: 55px;
+}
+.ull4 p{
+    width: 220px;
+}
+.ull h1{
+    color: #016ca8;
+    font-size: 44px;
+    margin-top: 50px;
+}
+.nll h1{
+    color: #016ca8;
+    font-size: 44px;
+    margin-top: 100px;
+}
+.ull4:hover{
+    box-shadow: 0px 0px 10px rgba(154, 150, 150, 0.552);
+    border-radius: 10px;
+}
+.nll{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.nll1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.nll2{
+    width: 280px;
+    height: 100px;
+    box-shadow: 0px 0px 10px rgba(124, 122, 122, 0.558);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 @media(max-width:600px) {
     .all {
         background: linear-gradient(rgba(0, 0, 0, 0.703)), url("./uae-4-2048x1367\ 2.png");
@@ -906,5 +974,46 @@ border: 1px solid rgba(204, 199, 199, 0.563);
         }
         .yll{
             height: auto;
+        }
+        .xll{
+            display: flex;
+            flex-direction: column;
+        }
+        .xll img{
+            width: 80%;
+            margin: auto;
+        }
+        .ull2{
+            display: none;
+        }
+        .ull3{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .ull h1{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .ull4{
+            height: auto;
+        }
+        .nll{
+            width: 100%;
+        }
+        .nll1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .nll2{
+            width: 170px;
+            margin-left: 10px;
+        }
+        .nll2 img{
+            width: 100px;
+        }
+        .nll h1{
+            text-align: center;
         }
 }
