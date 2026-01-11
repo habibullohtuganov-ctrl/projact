@@ -837,6 +837,43 @@ border: 1px solid rgba(204, 199, 199, 0.563);
     gap: 10px;
     align-items: center;
 }
+.lllll{
+    width: 100%;
+    height: 100px;
+    background-image: url(Group\ 870.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 20px;
+    
+}
+.lllll1{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+.lllll2{
+    display: flex;
+    flex-direction: column;
+}
+.lllll2 img{
+      width: 100px;
+}
+.lllll4{
+    width: 230px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.lllll3{
+    display: flex;
+    gap: 20px;
+    width: 500px;
+    margin: auto;
+    text-align: end;
+}
 @media(max-width:600px) {
     .all {
         background: linear-gradient(rgba(0, 0, 0, 0.703)), url("./uae-4-2048x1367\ 2.png");
@@ -1178,8 +1215,19 @@ border: 1px solid rgba(204, 199, 199, 0.563);
         }
         .ill3{
             width: 80%;
+            text-align: start;
         }
         .ill4{
             margin: auto;
+        }
+        .lllll{
+            background-color: black;
+        }
+        .lllll3{
+            display: none;
+        }
+        .lllll1{
+            display: flex;
+            justify-content: space-between;
         }
 }
